@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/LLD/Snakes and Ladder/Snakes And Ladder/.vs/Snakes And Ladder
+/LLD/Snakes and Ladder/Snakes And Ladder/.github
