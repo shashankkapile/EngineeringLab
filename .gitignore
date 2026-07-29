@@ -1,21 +1,74 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.exe
+*.dll
+*.pdb
+*.mdb
 
-/.vs
-/LLD/Snakes and Ladder/Snakes And Ladder/.vs/Snakes And Ladder
-/LLD/Snakes and Ladder/Snakes And Ladder/.github
-/LLD/TicTacToe/TicTacToe/.github
-/LLD/TicTacToe/TicTacToe/.vs
-/LLD/TicTacToe/TicTacToe/TicTacToe/obj/Debug/net8.0
-/LLD/TicTacToe/TicTacToe/TicTacToe/obj/Release/net8.0
-/LLD/TicTacToe/TicTacToe/TicTacToe/obj
-/LLD/LRUCache/.vs
-/LLD/LRUCache/LRUCache/bin/Debug/net8.0
-/LLD/LRUCache/LRUCache/obj/Debug/net8.0/ref
-/LLD/LRUCache/LRUCache/obj/Debug/net8.0/refint
-/LLD/LRUCache/LRUCache/obj/Debug/net8.0
-/LLD/LRUCache/LRUCache/obj
-/LLD/Snakes and Ladder/Snakes And Ladder/.vs/ProjectEvaluation
-/LLD/LRUCache/.github
-/LLD/Snakes and Ladder/Snakes And Ladder/Snakes And Ladder/obj/Release/net8.0
+# Visual Studio files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Generated files
+*.generated.cs
+*.designer.cs
+*.g.cs
+*.g.i.cs
+
+# Others
+*.log
+*.cache
+*.bak
+*.swp
+*.tmp
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+# GitHub metadata
+.github/
+.gitattributes
+.gitignore
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Docker / Containers
+docker-compose.override.yml
+.env
+
+# Rider / JetBrains
+.idea/
+*.iml
